@@ -112,7 +112,7 @@ export default function SplitScreen() {
           alt={'Login Image'}
           objectFit={'cover'}
           src={
-            'https://cdn.dribbble.com/userupload/7122630/file/original-aaa6eec728d8533562fcf8791fb99de6.jpg?resize=1024x768'
+            'https://drive.google.com/file/d/1pXYH-EOdGalEUxqNgiPUQUXWfHatw6u0/view?usp=sharing'
           }
         />
       </Flex>
