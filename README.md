@@ -82,8 +82,6 @@ To set up the project locally, follow these steps:
   - **Delete Resume**: `DELETE /api/resumes/{id}`
 
 
- ## Screen Shots 
+## Screen Shots
 
-
-![Screenshot (335)](frontend\public\Screenshot (85).png)
-
+![Screenshot](frontend/public/Screenshot%20(85).png)
