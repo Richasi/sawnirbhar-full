@@ -86,12 +86,12 @@ export default function SignupPage() {
                         Sign up
                     </Heading>
                     <Text fontSize={'lg'} color={'gray.600'}>
-                        Create a Job-Ready Resume in Minutes. ✌️
+                        Create Resume .
                     </Text>
                 </Stack>
                 <Box
                     rounded={'lg'}
-                    bg={useColorModeValue('white', 'gray.700')}
+                    bg={useColorModeValue('cream', 'gray.700')}
                     boxShadow={'lg'}
                     p={8}>
                     <Stack spacing={4}>

@@ -21,7 +21,7 @@ const loginSuccesAction = (payload) => {
 export const login = (payload) => (dispatch) => {
 
     dispatch(loginRequestAction());
-    axios.post("https://swanirbhar-backend-4v6f.onrender.com/auth/login", payload)
+    axios.post("https://swnirbhar-2.onrender.com/auth/login", payload)
         .then((res) => {
             console.log('res:', res);
             dispatch(loginSuccesAction(res.data.token));
@@ -31,6 +31,7 @@ export const login = (payload) => (dispatch) => {
             dispatch(loginFailureAction());
         })
 }
+
 
 
 

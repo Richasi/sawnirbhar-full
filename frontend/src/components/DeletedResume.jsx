@@ -9,8 +9,7 @@ export default function DeletedResume() {
             <Heading as="h2" size="xl" mt={6} mb={2}>
                 Resume Data is Deleted
             </Heading>
-
-            <Link to={"/create-resume"}>
+            <Link to="/create-resume">
                 <Button
                     colorScheme="teal"
                     bgGradient="linear(to-r, teal.400, teal.500, teal.600)"
@@ -19,8 +18,6 @@ export default function DeletedResume() {
                     Add Resume
                 </Button>
             </Link>
-
-
         </Box>
     )
 }

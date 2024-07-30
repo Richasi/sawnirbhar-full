@@ -107,15 +107,7 @@ export default function SplitScreen() {
           </Stack>
         </Stack>
       </Flex>
-      <Flex flex={1}>
-        <Image
-          alt={'Login Image'}
-          objectFit={'cover'}
-          src={
-            'https://drive.google.com/file/d/1pXYH-EOdGalEUxqNgiPUQUXWfHatw6u0/view?usp=sharing'
-          }
-        />
-      </Flex>
+     
     </Stack>
   )
 }
