@@ -87,11 +87,15 @@ export default function SplitScreen() {
           <Heading fontSize={'4xl'}>Log in</Heading>
           <FormControl id="email">
             <FormLabel>Email</FormLabel>
-            <Input type="email" name='email' placeholder={"Enter Email"} value={loginUser.email} onChange={handleChnage} />
+            <Input 
+             style={{ border: '1px solid blue' }}
+            type="email" name='email' placeholder={"Enter Email"} value={loginUser.email} onChange={handleChnage} />
           </FormControl>
           <FormControl id="password">
             <FormLabel>Password</FormLabel>
-            <Input type="password" name='password' placeholder={"Enter Password"} value={loginUser.password} onChange={handleChnage} />
+            <Input 
+             style={{ border: '1px solid blue' }}
+            type="password" name='password' placeholder={"Enter Password"} value={loginUser.password} onChange={handleChnage} />
           </FormControl>
           <Stack spacing={6}>
             <Stack

@@ -85,4 +85,5 @@ To set up the project locally, follow these steps:
  ## Screen Shots 
 
 
+![Screenshot (335)](frontend\public\Screenshot (85).png)
 

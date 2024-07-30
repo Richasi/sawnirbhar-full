@@ -227,16 +227,19 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>Full Name</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="text"
                                         value={resumeData.sections.personalInfo.fullName}
+                                        
                                         onChange={(e) => handleChange('personalInfo', 'fullName', 0, undefined, e)}
                                     />
                                 </FormControl>
                             </GridItem>
                             <GridItem colSpan={2}>
                                 <FormControl>
-                                    <FormLabel>Professional Summary</FormLabel>
+                                    <FormLabel >Professional Summary</FormLabel>
                                     <Textarea
+                                     style={{ border: '1px solid blue' }}
                                         value={resumeData.sections.personalInfo.professionalSummary}
                                         onChange={(e) => handleChange('personalInfo', 'professionalSummary', 0, undefined, e)}
                                     />
@@ -246,6 +249,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>Phone Number</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="text"
                                         value={resumeData.sections.personalInfo.phoneNumber}
                                         onChange={(e) => handleChange('personalInfo', 'phoneNumber', 0, undefined, e)}
@@ -256,6 +260,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>Email</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="email"
                                         value={resumeData.sections.personalInfo.email}
                                         onChange={(e) => handleChange('personalInfo', 'email', 0, undefined, e)}
@@ -266,6 +271,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>LinkedIn</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="url"
                                         value={resumeData.sections.personalInfo.linkedIn}
                                         onChange={(e) => handleChange('personalInfo', 'linkedIn', 0, undefined, e)}
@@ -276,6 +282,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>GitHub</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="url"
                                         value={resumeData.sections.personalInfo.gitHub}
                                         onChange={(e) => handleChange('personalInfo', 'gitHub', 0, undefined, e)}
@@ -286,6 +293,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>Portfolio</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="url"
                                         value={resumeData.sections.personalInfo.portfolio}
                                         onChange={(e) => handleChange('personalInfo', 'portfolio', 0, undefined, e)}
@@ -296,6 +304,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>Location</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="text"
                                         value={resumeData.sections.personalInfo.location}
                                         onChange={(e) => handleChange('personalInfo', 'location', 0, undefined, e)}
@@ -311,6 +320,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Institute Name</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="text"
                                                 value={education.instituteName}
                                                 onChange={(e) => handleChange('education', 'instituteName', index, undefined, e)}
@@ -321,6 +331,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Degree</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="text"
                                                 value={education.degree}
                                                 onChange={(e) => handleChange('education', 'degree', index, undefined, e)}
@@ -331,6 +342,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Start Date</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="date"
                                                 value={education.startDate}
                                                 onChange={(e) => handleChange('education', 'startDate', index, undefined, e)}
@@ -341,6 +353,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>End Date</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="date"
                                                 value={education.endDate}
                                                 onChange={(e) => handleChange('education', 'endDate', index, undefined, e)}
@@ -351,6 +364,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Location</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="text"
                                                 value={education.location}
                                                 onChange={(e) => handleChange('education', 'location', index, undefined, e)}
@@ -368,6 +382,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Project Title</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="text"
                                                 value={project.projectTitle}
                                                 onChange={(e) => handleChange('projects', 'projectTitle', index, undefined, e)}
@@ -378,6 +393,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>GitHub URL</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="url"
                                                 value={project.gitHubURL}
                                                 onChange={(e) => handleChange('projects', 'gitHubURL', index, undefined, e)}
@@ -388,6 +404,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Deployed URL</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="url"
                                                 value={project.deployedURL}
                                                 onChange={(e) => handleChange('projects', 'deployedURL', index, undefined, e)}
@@ -398,6 +415,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Team Size</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="number"
                                                 value={project.teamSize}
                                                 onChange={(e) => handleChange('projects', 'teamSize', index, undefined, e)}
@@ -408,6 +426,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Start Date</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="date"
                                                 value={project.startDate}
                                                 onChange={(e) => handleChange('projects', 'startDate', index, undefined, e)}
@@ -418,6 +437,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>End Date</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="date"
                                                 value={project.endDate}
                                                 onChange={(e) => handleChange('projects', 'endDate', index, undefined, e)}
@@ -428,6 +448,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Project Description</FormLabel>
                                             <Textarea
+                                             style={{ border: '1px solid blue' }}
                                                 value={project.projectDescription}
                                                 onChange={(e) => handleChange('projects', 'projectDescription', index, undefined, e)}
                                             />
@@ -437,6 +458,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Features</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="text"
                                                 value={project.features.join(", ")}
                                                 onChange={(e) => handleChange('projects', 'features', index, 0, e)}
@@ -447,6 +469,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Areas of Responsibility</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="text"
                                                 value={project.areasOfResponsibility.join(", ")}
                                                 onChange={(e) => handleChange('projects', 'areasOfResponsibility', index, 0, e)}
@@ -457,6 +480,7 @@ const CreateResumePage = () => {
                                         <FormControl>
                                             <FormLabel>Tech Stack</FormLabel>
                                             <Input
+                                             style={{ border: '1px solid blue' }}
                                                 type="text"
                                                 value={project.techStack.join(", ")}
                                                 onChange={(e) => handleChange('projects', 'techStack', index, 0, e)}
@@ -472,6 +496,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>Job Title</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="text"
                                         value={resumeData.sections.workExperience[0].jobTitle}
                                         onChange={(e) => handleChange('workExperience', 'jobTitle', 0, undefined, e)}
@@ -482,6 +507,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>Organizational Name</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="text"
                                         value={resumeData.sections.workExperience[0].organizationalName}
                                         onChange={(e) => handleChange('workExperience', 'organizationalName', 0, undefined, e)}
@@ -492,6 +518,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>Company Website</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="url"
                                         value={resumeData.sections.workExperience[0].companyWebsite}
                                         onChange={(e) => handleChange('workExperience', 'companyWebsite', 0, undefined, e)}
@@ -502,6 +529,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>Start Date</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="date"
                                         value={resumeData.sections.workExperience[0].startDate}
                                         onChange={(e) => handleChange('workExperience', 'startDate', 0, undefined, e)}
@@ -512,6 +540,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>End Date</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="date"
                                         value={resumeData.sections.workExperience[0].endDate}
                                         onChange={(e) => handleChange('workExperience', 'endDate', 0, undefined, e)}
@@ -522,6 +551,7 @@ const CreateResumePage = () => {
                                 <FormControl>
                                     <FormLabel>Areas of Responsibility</FormLabel>
                                     <Input
+                                     style={{ border: '1px solid blue' }}
                                         type="text"
                                         value={resumeData.sections.workExperience[0].areasOfResponsibility.join(", ")}
                                         onChange={(e) => handleChange('workExperience', 'areasOfResponsibility', 0, 0, e)}
@@ -536,6 +566,7 @@ const CreateResumePage = () => {
                                 {resumeData.sections.skills.map((skill, index) => (
                                     <GridItem key={index} colSpan={2}>
                                         <Input
+                                         style={{ border: '1px solid blue' }}
                                             type="text"
                                             value={skill}
                                             onChange={(e) => handleSkillsChange(index, e)}
@@ -551,6 +582,7 @@ const CreateResumePage = () => {
                                     <FormControl>
                                         <FormLabel>Certificate Name</FormLabel>
                                         <Input
+                                         style={{ border: '1px solid blue' }}
                                             type="text"
                                             value={cert.certificateName}
                                             onChange={(e) => handleChange('certifications', 'certificateName', index, undefined, e)}
@@ -561,6 +593,7 @@ const CreateResumePage = () => {
                                     <FormControl>
                                         <FormLabel>Certificate URL</FormLabel>
                                         <Input
+                                         style={{ border: '1px solid blue' }}
                                             type="url"
                                             value={cert.certificateURL}
                                             onChange={(e) => handleChange('certifications', 'certificateURL', index, undefined, e)}
@@ -571,6 +604,8 @@ const CreateResumePage = () => {
                                     <FormControl>
                                         <FormLabel>Issuing Organization</FormLabel>
                                         <Input
+                                         style={{ border: '1px solid blue' }}
+                                       
                                             type="text"
                                             value={cert.issuingOrganization}
                                             onChange={(e) => handleChange('certifications', 'issuingOrganization', index, undefined, e)}

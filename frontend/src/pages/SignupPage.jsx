@@ -99,13 +99,17 @@ export default function SignupPage() {
                             <Box>
                                 <FormControl id="userName" isRequired>
                                     <FormLabel>User Name</FormLabel>
-                                    <Input type="text" value={user.username} name="username" placeholder='Enter User Name' onChange={handleChange} />
+                                    <Input 
+                                     style={{ border: '1px solid blue' }}
+                                    type="text" value={user.username} name="username" placeholder='Enter User Name' onChange={handleChange} />
                                 </FormControl>
                             </Box>
                             <Box>
                                 <FormControl id="email" isRequired>
                                     <FormLabel>Email</FormLabel>
-                                    <Input type="email" value={user.email} name="email" placeholder='Enter Email' onChange={handleChange} />
+                                    <Input 
+                                     style={{ border: '1px solid blue' }}
+                                    type="email" value={user.email} name="email" placeholder='Enter Email' onChange={handleChange} />
                                 </FormControl>
                             </Box>
                         </HStack>
@@ -113,7 +117,9 @@ export default function SignupPage() {
                         <FormControl id="password" isRequired>
                             <FormLabel>Password</FormLabel>
                             <InputGroup>
-                                <Input type={showPassword ? 'text' : 'password'} value={user.password} name="password" placeholder='Enter Password' onChange={handleChange} />
+                                <Input 
+                                 style={{ border: '1px solid blue' }}
+                                type={showPassword ? 'text' : 'password'} value={user.password} name="password" placeholder='Enter Password' onChange={handleChange} />
                                 <InputRightElement h={'full'}>
                                     <Button
                                         variant={'ghost'}
