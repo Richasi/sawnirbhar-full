@@ -84,7 +84,7 @@ export default function SplitScreen() {
     <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
       <Flex p={8} flex={1} align={'center'} justify={'center'}>
         <Stack spacing={4} w={'full'} maxW={'md'}>
-          <Heading fontSize={'2xl'}>Log in</Heading>
+          <Heading fontSize={'4xl'}>Log in</Heading>
           <FormControl id="email">
             <FormLabel>Email</FormLabel>
             <Input type="email" name='email' placeholder={"Enter Email"} value={loginUser.email} onChange={handleChnage} />
@@ -102,7 +102,7 @@ export default function SplitScreen() {
               <Text color={'blue.500'}>Forgot password?</Text>
             </Stack>
             <Button colorScheme={'blue'} variant={'solid'} onClick={hadleLogin}>
-              Sign in
+              Log in
             </Button>
           </Stack>
         </Stack>

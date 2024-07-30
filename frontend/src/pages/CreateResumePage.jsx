@@ -208,14 +208,15 @@ const CreateResumePage = () => {
 
 
     return (
-        <ChakraProvider theme={theme} bg="gray.50">
+        <ChakraProvider theme={theme} bg="pink.50">
             <Box
                 maxW="container.md"
                 mx="auto"
                 p={5}
-                bg="#ffff"
-                boxShadow="lg"
+                bg="pink"
+              
                 borderRadius="md"
+                
             >
                 <Heading mb={5}>Resume Form</Heading>
                 <form onSubmit={handleSubmit}>
