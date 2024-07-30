@@ -84,9 +84,9 @@ export default function SplitScreen() {
     <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
       <Flex p={8} flex={1} align={'center'} justify={'center'}>
         <Stack spacing={4} w={'full'} maxW={'md'}>
-          <Heading fontSize={'2xl'}>Sign in to your account</Heading>
+          <Heading fontSize={'2xl'}>Log in</Heading>
           <FormControl id="email">
-            <FormLabel>Email address</FormLabel>
+            <FormLabel>Email</FormLabel>
             <Input type="email" name='email' placeholder={"Enter Email"} value={loginUser.email} onChange={handleChnage} />
           </FormControl>
           <FormControl id="password">

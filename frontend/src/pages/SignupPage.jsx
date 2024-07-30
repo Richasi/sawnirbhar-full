@@ -14,6 +14,7 @@ import {
     useColorModeValue,
     useToast,
 } from '@chakra-ui/react'
+
 import { useEffect, useState } from 'react'
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons'
 import { Link, useNavigate } from 'react-router-dom';
@@ -68,7 +69,6 @@ export default function SignupPage() {
                 });
 
                 navigate("/login");
-
             }
             setHasSubmitted(false);
         }
@@ -79,20 +79,20 @@ export default function SignupPage() {
             minH={'100vh'}
             align={'center'}
             justify={'center'}
-            bg={useColorModeValue('gray.50', 'gray.800')}>
+            bg={'pink'}>
             <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
                 <Stack align={'center'}>
+                <Heading fontSize={'5xl'}color={'blue.500'} textAlign={'center'}>
+                Create Resume.  
+                    </Heading>
                     <Heading fontSize={'4xl'} textAlign={'center'}>
                         Sign up
                     </Heading>
-                    <Text fontSize={'lg'} color={'gray.600'}>
-                        Create Resume .
-                    </Text>
+                   
                 </Stack>
                 <Box
                     rounded={'lg'}
                     bg={useColorModeValue('cream', 'gray.700')}
-                    boxShadow={'lg'}
                     p={8}>
                     <Stack spacing={4}>
                         <HStack>
@@ -104,7 +104,7 @@ export default function SignupPage() {
                             </Box>
                             <Box>
                                 <FormControl id="email" isRequired>
-                                    <FormLabel>Email address</FormLabel>
+                                    <FormLabel>Email</FormLabel>
                                     <Input type="email" value={user.email} name="email" placeholder='Enter Email' onChange={handleChange} />
                                 </FormControl>
                             </Box>
