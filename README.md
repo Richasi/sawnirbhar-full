@@ -14,10 +14,10 @@ The Resume Builder is a web application designed to help users create, manage, a
    - Manage sections such as personal information, work experience, education, and skills.
 
 ### Backend Deployed Link :-
- https://swanirbhar-backend-4v6f.onrender.com
+https://swnirbhar-2.onrender.com
 
 ### Frontend Deployed Link :-
-https://frontend-2a7s2gt8y-umerahmad9126s-projects.vercel.app
+https://sawnirbhar-full.vercel.app/
 
  
 
@@ -28,7 +28,8 @@ To set up the project locally, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/UmerAhmad9126/swanirbhar-assignment.git
+   https://github.com/Richasi/sawnirbhar-full
+   
    ```
 
 2. **Install Dependencies**
