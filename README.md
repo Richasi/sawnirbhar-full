@@ -85,3 +85,13 @@ To set up the project locally, follow these steps:
 ## Screen Shots
 
 ![Screenshot](frontend/public/Screenshot%20(85).png)
+
+
+![Screenshot](frontend/public/Screenshot%20(86).png)
+
+
+![Screenshot](frontend/public/Screenshot%20(87).png)
+
+
+
+![Screenshot](frontend/public/Screenshot%20(88).png)
